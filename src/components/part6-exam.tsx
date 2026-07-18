@@ -1,5 +1,6 @@
 "use client";
 
+import type { ReactNode } from "react";
 import { Label } from "@/components/ui/label";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Separator } from "@/components/ui/separator";
@@ -17,22 +18,37 @@ interface Part6ExamProps {
   showCorrect?: boolean;
 }
 
-function renderParagraph(paragraph: string, blankNumber?: number) {
-  if (!blankNumber) return <p>{paragraph}</p>;
+const BLANK_PATTERN = /\((\d+)\)\s*___/g;
 
-  const marker = `{{${blankNumber}}}`;
-  if (!paragraph.includes(marker)) return <p>{paragraph}</p>;
+function renderParagraph(paragraph: string) {
+  const parts: ReactNode[] = [];
+  let lastIndex = 0;
 
-  const [before, after] = paragraph.split(marker);
-  return (
-    <p>
-      {before}
-      <span className="mx-1 inline-block min-w-[5rem] border-b-2 border-primary/40 px-1 text-center font-medium text-primary">
+  for (const match of paragraph.matchAll(BLANK_PATTERN)) {
+    const matchIndex = match.index ?? 0;
+    if (matchIndex > lastIndex) {
+      parts.push(paragraph.slice(lastIndex, matchIndex));
+    }
+
+    const blankNumber = match[1];
+    parts.push(
+      <span
+        key={`${matchIndex}-${blankNumber}`}
+        className="mx-1 inline-block min-w-[5rem] border-b-2 border-primary/40 px-1 text-center font-medium text-primary"
+      >
         [{blankNumber}]
-      </span>
-      {after}
-    </p>
-  );
+      </span>,
+    );
+    lastIndex = matchIndex + match[0].length;
+  }
+
+  if (parts.length === 0) return <p>{paragraph}</p>;
+
+  if (lastIndex < paragraph.length) {
+    parts.push(paragraph.slice(lastIndex));
+  }
+
+  return <p>{parts}</p>;
 }
 
 export function Part6Exam({

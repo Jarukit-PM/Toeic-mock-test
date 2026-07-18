@@ -18,7 +18,7 @@ export const part6Set3: Part6Set = {
         "From: Finance Department",
         "The current contract with Summit Office Supplies expires on December 31. We need to (1) ___ whether to renew or seek alternative vendors.",
         "Summit has consistently met delivery deadlines and offered competitive pricing. However, two other vendors have submitted proposals with (2) ___ rates for bulk orders.",
-        "Please review the attached comparison chart and prepare a (3) ___ by November 15. The final decision will be made by the executive committee at the November 20 meeting.",
+        "Please review the attached comparison chart and prepare a (3) ___ by November 15. The final (4) ___ will be made by the executive committee at the November 20 meeting.",
       ],
       questions: [
         {
@@ -59,7 +59,7 @@ export const part6Set3: Part6Set = {
         "Our latest survey received responses from 2,400 customers across all regions. Overall satisfaction increased by 8 percent compared to the previous quarter.",
         "Customers particularly praised our technical support team, noting (5) ___ response times and knowledgeable staff. Product quality ratings remained stable at 4.2 out of 5.",
         "Areas for improvement include shipping speed and website navigation. The marketing team has been tasked with (6) ___ a plan to address these concerns by the end of the quarter.",
-        "A detailed breakdown by region is (7) ___ in the appendix. The full report will be presented at the board meeting on January 8.",
+        "A detailed breakdown by region is (7) ___ in the appendix. The full report will be (8) ___ at the board meeting on January 8.",
       ],
       questions: [
         {

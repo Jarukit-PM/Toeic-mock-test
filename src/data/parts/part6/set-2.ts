@@ -18,8 +18,8 @@ export const part6Set2: Part6Set = {
         "Subject: Final Reminders — Global Tech Summit 2026",
         "Dear Attendee,",
         "The Global Tech Summit will begin on September 14 at the Metro Convention Center. Registration opens at 7:30 a.m. on the first day. Please bring a printed or digital copy of your confirmation email and a valid photo ID.",
-        "Lunch will be (1) ___ for all registered participants on both days. If you have dietary restrictions, please update your profile on the event website by September 7.",
-        "Shuttle service from the airport will be available every hour from 6:00 a.m. to 10:00 p.m. The schedule is posted on our website under the Transportation tab.",
+        "Lunch will be (1) ___ for all registered participants on both days. Those with (2) ___ dietary needs should update their profile on the event website by September 7.",
+        "Shuttle service from the airport will be (3) ___ every hour from 6:00 a.m. to 10:00 p.m. The schedule is (4) ___ on our website under the Transportation tab.",
         "We look forward to seeing you at the summit.",
       ],
       questions: [
@@ -35,7 +35,7 @@ export const part6Set2: Part6Set = {
           number: 2,
           options: ["restrict", "restricted", "restricting", "restriction"],
           correctAnswer: "B",
-          explanation: "Adjective: dietary restrictions.",
+          explanation: "Adjective: restricted dietary needs.",
         },
         {
           id: "p6-2-q03",
@@ -60,7 +60,7 @@ export const part6Set2: Part6Set = {
         "Welcome to Apex Industries! Your orientation session is scheduled for Monday, October 6, at 9:00 a.m. in the main auditorium.",
         "During orientation, you will receive your employee badge, complete necessary paperwork, and meet your department (5) ___. A campus tour will follow the morning session.",
         "Please arrive 15 minutes early to allow time for check-in. Business casual attire is (6) ___. Lunch will be served in the employee cafeteria at noon.",
-        "If you are unable to attend, contact Human Resources at hr@apexind.com to (7) ___ an alternative date. We are excited to have you join our team!",
+        "If you are unable to attend, contact Human Resources at hr@apexind.com to (7) ___ an alternative date. We are (8) ___ to have you join our team!",
       ],
       questions: [
         {
@@ -101,7 +101,7 @@ export const part6Set2: Part6Set = {
         "The company will upgrade its email system this weekend. The upgrade will begin Saturday at 11:00 p.m. and is expected to be (9) ___ by Sunday at 6:00 a.m.",
         "During the upgrade, email access will be temporarily unavailable. Please save any important drafts before Friday evening. Mobile email apps may also be (10) ___ during this period.",
         "After the upgrade, you will need to log in with your existing credentials. A new feature allowing larger attachment sizes will be (11) ___ enabled.",
-        "If you experience any issues after the upgrade, contact the IT help desk at extension 5000.",
+        "If you (12) ___ any issues after the upgrade, contact the IT help desk at extension 5000.",
       ],
       questions: [
         {

@@ -16,7 +16,7 @@ export const part6Set1: Part6Set = {
         "Dear Staff Members,",
         "As part of our company expansion, the Human Resources department will be relocating to the fifth floor of the West Tower next month. The move is scheduled to take place over the weekend of March 15–16 to (1) ___ disruption to daily operations.",
         "During the relocation, all HR services will remain available online. Employees who need in-person assistance should visit the temporary service desk on the second floor. The desk will be staffed from 9:00 a.m. to 4:00 p.m. (2) ___ the transition period.",
-        "Please update your internal directory listings once the move is complete. If you have questions about benefits enrollment or payroll, contact HR at extension 2200.",
+        "Please (3) ___ your internal directory listings once the move is complete. If you have (4) ___ about benefits enrollment or payroll, contact HR at extension 2200.",
         "Thank you for your cooperation.",
         "Sincerely, Diana Morris, Director of Human Resources",
       ],
@@ -62,7 +62,7 @@ export const part6Set1: Part6Set = {
         "Subject: Urgent Product Recall — Model XR-450",
         "We are initiating an immediate recall of Model XR-450 power adapters due to a manufacturing defect that may cause (5) ___ during extended use. All units shipped between April 1 and May 30 are affected.",
         "Sales managers must contact customers who purchased the affected units and arrange for (6) ___ replacements at no charge. A prepaid shipping label will be provided for returning defective units.",
-        "Please submit a report of all affected customers in your region by June 19. For additional information, refer to the recall guidelines posted on the company intranet.",
+        "Please (7) ___ a report of all affected customers in your region by June 19. For (8) ___ information, refer to the recall guidelines posted on the company intranet.",
       ],
       questions: [
         {
@@ -83,8 +83,8 @@ export const part6Set1: Part6Set = {
           id: "p6-1-q07",
           number: 7,
           options: ["submitting", "submit", "submitted", "submits"],
-          correctAnswer: "A",
-          explanation: "Gerund after preposition 'for' implied in 'arrange for'.",
+          correctAnswer: "B",
+          explanation: "Imperative: please submit a report.",
         },
         {
           id: "p6-1-q08",
@@ -103,7 +103,7 @@ export const part6Set1: Part6Set = {
         "The Learning and Development team is pleased to announce a workshop on effective business communication. The session will be held on July 8 from 1:00 p.m. to 4:00 p.m. in Training Room C.",
         "This workshop is designed for employees who (9) ___ interact with clients or external partners. Topics will include email etiquette, presentation skills, and cross-cultural communication.",
         "Seating is limited to 25 participants. To register, visit the training portal and select the July 8 session. Registration closes on July 1 or when all seats are (10) ___.",
-        "Participants who complete the workshop will receive a certificate of (11) ___ and may count the session toward their annual professional development requirements.",
+        "Participants who complete the workshop will receive a certificate of (11) ___ and may count the session toward their annual professional (12) ___ requirements.",
       ],
       questions: [
         {

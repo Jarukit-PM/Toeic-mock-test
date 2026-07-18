@@ -23,13 +23,10 @@ export function getPartSets(part: PartNumber): PartPracticeSet[] {
   return PART_SETS[part];
 }
 
-export function getPartSet(
-  part: PartNumber,
-  setId: string,
-): PartPracticeSet | undefined {
-  return PART_SETS[part].find((set) => set.id === setId);
+export function getPartSet(part: PartNumber, setId: string): PartPracticeSet | undefined {
+  return PART_SETS[part].find((s) => s.id === setId);
 }
 
 export function getAllPartSetIds(part: PartNumber): string[] {
-  return PART_SETS[part].map((set) => set.id);
+  return PART_SETS[part].map((s) => s.id);
 }
